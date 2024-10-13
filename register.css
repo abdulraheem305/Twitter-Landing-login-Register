@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+.container img {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+.container h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.input-group input, .input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.link {
+    color: #1da1f2;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.date-row {
+    display: flex;
+    justify-content: space-between;
+}
+.date-row select {
+    width: 32%;
+}
+.btn {
+    height: 30px;
+    width: 100%;
+    padding: 15px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.btn:hover {
+    background-color: #0d8cf0;
+}
